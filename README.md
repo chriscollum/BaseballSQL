@@ -562,23 +562,6 @@ The goal of this project is not simply to find famous baseball records. It is to
 - Git / GitHub
 
 ---
-
-# Project Structure
-
-Recommended repository structure:
-
-```text
-lahman-baseball-sql/
-│
-├── README.md
-│
-├── sql/
-│   └── lahman-baseball.sql
-│
-└── screenshots/
-    └── (optional query-result screenshots)
-```
-
 ---
 
 # Author
