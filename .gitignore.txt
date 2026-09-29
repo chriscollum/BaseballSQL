@@ -1,0 +1,5 @@
+# Ignore a specific file
+BaseballSQL.slnx
+
+# Ignore an entire folder (always end folder names with a trailing slash)
+.vs/
