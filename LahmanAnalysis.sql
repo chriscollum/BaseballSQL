@@ -64,9 +64,9 @@ GO
 
 SELECT TOP(100)
     playerID,
-    PlayerName,
-    birthCity,
-    birthState,
+    LEFT(PlayerName, 35) AS PlayerName,
+    LEFT(birthCity, 35) AS Birthplace,
+    LEFT(birthState, 10) AS State,
     birthYear,
     SUM(HR) AS CareerHomeRuns,
     SUM(H) AS CareerHits,
